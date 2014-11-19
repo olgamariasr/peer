@@ -1,5 +1,0 @@
-##install.packages('devtools')
-devtools::install_github('rstudio/shinyapps')
-shinyapps::setAccountInfo(name='developingdataproductspeer1', token='C7BBA9D932492246316CBD103E7DD6A7', secret='caz72zecYFDAagH4vRNl0UAvj9mxvlD3xsZ53pgQ')
-library(shinyapps)
-shinyapps::deployApp('.')
